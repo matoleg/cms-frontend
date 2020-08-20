@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "resource",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "CompetenceResource.Resource",
+      "projection": "ResourceL",
+      "detailModelName": "i-i-s-c-m-s-competence-resource"
+    }
+  ],
+  "external": false,
+  "caption": "Competence",
+  "name": "IISCMSCompetenceE",
+  "className": "CompetenceE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-c-m-s-competence",
+      "modelProjection": "CompetenceE"
+    }
+  ]
+}

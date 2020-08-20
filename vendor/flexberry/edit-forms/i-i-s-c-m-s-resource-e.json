@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Resource",
+  "name": "IISCMSResourceE",
+  "className": "ResourceE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-c-m-s-resource",
+      "modelProjection": "ResourceE"
+    }
+  ]
+}

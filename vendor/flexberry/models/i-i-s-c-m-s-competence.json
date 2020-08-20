@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISCMSCompetence",
+  "modelName": "i-i-s-c-m-s-competence",
+  "className": "Competence",
+  "nameSpace": "IIS.CMS",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "competenceResource",
+      "relatedTo": "i-i-s-c-m-s-competence-resource",
+      "inverse": "competence"
+    }
+  ],
+  "projections": [
+    {
+      "name": "CompetenceE",
+      "modelName": "i-i-s-c-m-s-competence",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "CompetenceResourceE",
+          "caption": "Competence resource",
+          "name": "competenceResource",
+          "relatedTo": "i-i-s-c-m-s-competence-resource",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "CompetenceL",
+      "modelName": "i-i-s-c-m-s-competence",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
