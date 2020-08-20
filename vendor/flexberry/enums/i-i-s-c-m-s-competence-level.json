@@ -1,9 +1,0 @@
-﻿{
-  "nameSpace": "IIS.CMS",
-  "className": "CompetenceLevel",
-  "enumObjects": {
-    "Basic": null,
-    "Intermediate": null,
-    "Advanced": null
-  }
-}
