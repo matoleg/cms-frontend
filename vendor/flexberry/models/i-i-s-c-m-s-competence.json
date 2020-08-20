@@ -31,7 +31,7 @@
       "attrs": [
         {
           "name": "name",
-          "caption": "Name",
+          "caption": "Наименование",
           "hidden": false,
           "index": 0
         }
@@ -40,7 +40,7 @@
       "hasMany": [
         {
           "projectionName": "CompetenceResourceE",
-          "caption": "Competence resource",
+          "caption": "Ресурсы для изучения",
           "name": "competenceResource",
           "relatedTo": "i-i-s-c-m-s-competence-resource",
           "inverse": null

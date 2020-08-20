@@ -16,7 +16,7 @@
       "ordered": false
     },
     {
-      "name": "description",
+      "name": "link",
       "type": "string",
       "flexberryType": "string",
       "notNull": false,
@@ -25,7 +25,7 @@
       "ordered": false
     },
     {
-      "name": "link",
+      "name": "description",
       "type": "string",
       "flexberryType": "string",
       "notNull": false,

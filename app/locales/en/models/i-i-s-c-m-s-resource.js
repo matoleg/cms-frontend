@@ -27,11 +27,11 @@ export default {
     name: {
       __caption__: 'name'
     },
-    description: {
-      __caption__: 'description'
-    },
     link: {
       __caption__: 'link'
+    },
+    description: {
+      __caption__: 'description'
     }
   }
 };

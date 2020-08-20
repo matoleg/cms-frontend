@@ -40,7 +40,7 @@
       "attrs": [
         {
           "name": "level",
-          "caption": "Level",
+          "caption": "Уровень владения",
           "hidden": false,
           "index": 0
         }
@@ -62,7 +62,7 @@
           ],
           "index": 1,
           "type": "standard",
-          "caption": "Resource",
+          "caption": "Ресурс",
           "name": "resource",
           "relatedTo": "i-i-s-c-m-s-resource",
           "inverse": null

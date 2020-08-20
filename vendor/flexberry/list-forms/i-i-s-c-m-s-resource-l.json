@@ -2,7 +2,7 @@
   "newForm": "i-i-s-c-m-s-resource-e",
   "editForm": "i-i-s-c-m-s-resource-e",
   "external": false,
-  "caption": "Resource",
+  "caption": "Ресурсы",
   "name": "IISCMSResourceL",
   "className": "ResourceL",
   "attrs": [],

@@ -6,8 +6,8 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 
 export let Model = Mixin.create({
   name: DS.attr('string'),
-  description: DS.attr('string'),
-  link: DS.attr('string')
+  link: DS.attr('string'),
+  description: DS.attr('string')
 });
 
 export let ValidationRules = {
@@ -17,14 +17,14 @@ export let ValidationRules = {
       validator('ds-error'),
     ],
   },
-  description: {
-    descriptionKey: 'models.i-i-s-c-m-s-resource.validations.description.__caption__',
+  link: {
+    descriptionKey: 'models.i-i-s-c-m-s-resource.validations.link.__caption__',
     validators: [
       validator('ds-error'),
     ],
   },
-  link: {
-    descriptionKey: 'models.i-i-s-c-m-s-resource.validations.link.__caption__',
+  description: {
+    descriptionKey: 'models.i-i-s-c-m-s-resource.validations.description.__caption__',
     validators: [
       validator('ds-error'),
     ],

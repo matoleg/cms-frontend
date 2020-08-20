@@ -35,8 +35,8 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('CompetenceResourceE', 'i-i-s-c-m-s-competence-resource', {
-    level: attr('Level', { index: 0 }),
-    resource: belongsTo('i-i-s-c-m-s-resource', 'Resource', {
+    level: attr('Уровень владения', { index: 0 }),
+    resource: belongsTo('i-i-s-c-m-s-resource', 'Ресурс', {
       name: attr('Name', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'name' })
   });

@@ -27,10 +27,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('CompetenceE', 'i-i-s-c-m-s-competence', {
-    name: attr('Name', { index: 0 }),
-    competenceResource: hasMany('i-i-s-c-m-s-competence-resource', 'Competence resource', {
-      level: attr('Level', { index: 0 }),
-      resource: belongsTo('i-i-s-c-m-s-resource', 'Resource', {
+    name: attr('Наименование', { index: 0 }),
+    competenceResource: hasMany('i-i-s-c-m-s-competence-resource', 'Ресурсы для изучения', {
+      level: attr('Уровень владения', { index: 0 }),
+      resource: belongsTo('i-i-s-c-m-s-resource', 'Ресурс', {
         name: attr('Name', { index: 2, hidden: true })
       }, { index: 1, displayMemberPath: 'name' })
     })
